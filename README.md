@@ -1,4 +1,4 @@
-# Word Find Game (csc260-w2024-project2)
+# Word Find Game
 
 
 ## Overview
@@ -56,7 +56,7 @@ It can be found [here](https://www.mit.edu/~ecprice/wordlist.10000).
 A larger corpus can be found here (https://websites.umich.edu/~jlawler/wordlist.html).
 
 ### Contributors to building this project:
- - Jonathan Fischman
  - Jeremy Perez
+ - Jonathan Fischman
  - Miguel Garduno 
  - Janak Subedi
