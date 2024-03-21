@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "17" // Update to the version you need, 17 is just an example
+    modules = [ 'javafx.controls' ]
+}
+
+dependencies {
+    implementation 'org.openjfx:javafx-controls:17' // Update to the version you need
+    testImplementation 'junit:junit:4.12'
+    implementation('com.vdurmont:emoji-java:5.1.1')
+}
+
+application {
+    mainClassName = 'run.WordFindApp'
+}
+
+test {
+    useJUnit()
+    include '**/*Suite.class'
+}
+
+sourceCompatibility = 11
